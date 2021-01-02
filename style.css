@@ -1,0 +1,37 @@
+body{
+    background-image:url("https://img.freepik.com/free-vector/hand-drawn-party-doodle-happy-birthday-ornaments-background-pattern_111016-231.jpg?size=626&ext=jpg");
+    background-size:cover;
+    font-family: 'Hanalei Fill', cursive;
+}
+label{
+    background-color: black;
+    color: skyblue;
+    width: 50%;
+    padding: 20px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+    box-shadow:10px 10px 20px lightblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+hr{
+    background-color: black;
+}
+.btn-warning:hover{
+    background-color: black;
+    color: lightblue;
+    border:5px solid skyblue;
+    box-shadow:10px 10px 20px lightblue;
+    font-size: 25px;
+}
+canvas{
+    animation-name: myanime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    border-width: 5px;
+}
+@keyframes myanime{
+    from{box-shadow: 5px 5px 10px red;}
+    to{box-shadow:5px 5px 40px orange;}
+}
